@@ -4,6 +4,7 @@ SPT-AKI Version 3.7.1~Version 3.7.* (GameVersion : EFT 0.13.5.3.26535 Only)
 かなり前のプロジェクトを無理やり再生したので、まあお察しです。
 
 GameObjectManagerやGameWorldはESPのフレームごとではなく、レイド開始時に読めば大丈夫です。  
+https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/blob/main/SPT_External/SPT_External/overlay.cpp#L54
 
 ## 機能
 * ESP Line
