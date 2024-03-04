@@ -3,6 +3,8 @@ SPT-AKI Version 3.7.1~Version 3.7.* (GameVersion : EFT 0.13.5.3.26535 Only)
 とりあえず動くようにはなりましたが、製作者が怠惰すぎてこのプロジェクトは一時的、もしくは半永久的に放棄されました。  
 かなり前のプロジェクトを無理やり再生したので、まあお察しです。
 
+GameObjectManagerやGameWorldはESPのフレームごとではなく、レイド開始時に読めば大丈夫です。  
+
 ## 機能
 * ESP Line
 * Player Distance
