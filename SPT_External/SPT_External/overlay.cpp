@@ -51,6 +51,7 @@ void Overlay::m_ESP()
     ImGui::SetNextWindowSize(ImVec2((float)GameRect.right, (float)GameRect.bottom));
     ImGui::Begin("##ESP", &ShowMenu, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoBackground | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoInputs);
 
+    // ESPのフレーム/毎に読み取らず、レイド開始時にでも読み取れば問題ない
     EFT->get_LocalGameWorld();
 
     uint64_t OnlineUser = m.Read<uint64_t>(EFT->LocalGameWorld + Offsets::LocalGameWorld::RegisteredPlayers);
@@ -92,7 +93,7 @@ void Overlay::m_ESP()
         uint64_t m_pHealthBody = m.Read<uint64_t>(m_pHealthController + 0x68);
         uint64_t m_pBodyController = m.Read<uint64_t>(m_pHealthBody + 0x18);
 
-        // �g�̂̊e���ʂ��� - Raw Data
+        // g‘Ì‚ÌŠe•”ˆÊ‚²‚Æ - Raw Data
         float Health = 0.f;
         for (int q = 0; q <= 6; q++)
         {
