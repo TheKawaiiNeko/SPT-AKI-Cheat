@@ -1,5 +1,5 @@
 # SPT-AKI Cheat (WIP)
-SPT-AKI Version 3.7.1~ (GameVersion : EFT 0.13.5.3.26535 Only)  
+SPT-AKI Version 3.7.1~Version 3.7.* (GameVersion : EFT 0.13.5.3.26535 Only)  
 とりあえず動くようにはなりましたが、製作者が怠惰すぎてこのプロジェクトは一時的、もしくは半永久的に放棄されました。  
 かなり前のプロジェクトを無理やり再生したので、まあお察しです。
 
