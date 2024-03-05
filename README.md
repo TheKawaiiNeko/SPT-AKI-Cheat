@@ -7,6 +7,13 @@ SPT-AKI Version 3.7.1~Version 3.7.* (GameVersion : EFT 0.13.5.3.26535 Only)
 GameObjectManagerやGameWorldはESPのフレームごとではなく、レイド開始時に読めば大丈夫です。  
 https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/blob/main/SPT_External/SPT_External/overlay.cpp#L54
 
+## How to use
+1. Install VisualStudio & C++ Support  
+https://learn.microsoft.com/ja-jp/cpp/build/vscpp-step-0-installation?view=msvc-170
+2. Open "SPT_External.sln"
+3. Build and Run! (Release + x64)  
+![GH](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/c3fc805c-ccb7-488f-b767-d4c97aa43e5d)
+
 ## 機能
 * ESP Line
 * Player Distance
