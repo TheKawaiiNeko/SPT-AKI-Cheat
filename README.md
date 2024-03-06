@@ -1,8 +1,7 @@
 # SPT-AKI Cheat (WIP)
 SPT-AKI Version 3.7.1~Version 3.7.* (GameVersion : EFT 0.13.5.3.26535 Only)  
 とりあえず動くようにはなりましたが、製作者が怠惰すぎてこのプロジェクトは一時的、もしくは半永久的に放棄されました。  
-かなり前のプロジェクトを無理やり再生したので、まあお察しです。  
-自分でも目すら当てられないです。
+このプロジェクトは多くのバグとコードの不足を含みます。ご自身でどうにかしてください。
 
 GameObjectManagerやGameWorldはESPのフレームごとではなく、レイド開始時に読めば大丈夫です。  
 https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/blob/main/SPT_External/SPT_External/overlay.cpp#L54
