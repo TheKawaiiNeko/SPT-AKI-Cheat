@@ -11,9 +11,14 @@ https://learn.microsoft.com/ja-jp/cpp/build/vscpp-step-0-installation?view=msvc-
 ![GH](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/c3fc805c-ccb7-488f-b767-d4c97aa43e5d)
 
 ## 機能
+* ESP Box (pseudo)
 * ESP Line
 * Player Distance
 
+### ESP Boxについて  
+プレイヤーのY座標 + 1.75mをして疑似的なボックスを生成しています。  
+伏せ/しゃがみ時にも1.75m+された状態のままレンダリングされるので、頭の位置やヒットボックス等の正規の高さを取得できる手段を用意する必要があります。
+
 ## Image
-![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/edb93c30-d0f0-44e9-9712-a8520c8ab4f9)
-![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/1fc9a021-d2ad-4738-8e08-3e85c8befd74)
+![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/d6d45a25-3fc6-47a8-a7dd-5896f8dd0db2)
+![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/8e8f461c-fcfa-4902-afb4-9bbf7104a61f)
