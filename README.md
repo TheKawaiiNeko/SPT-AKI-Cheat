@@ -20,5 +20,5 @@ https://learn.microsoft.com/ja-jp/cpp/build/vscpp-step-0-installation?view=msvc-
 伏せ/しゃがみ時にも1.75m+された状態のままレンダリングされるので、頭の位置やヒットボックス等の正規の高さを取得できる手段を用意する必要があります。
 
 ## Image
-![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/d6d45a25-3fc6-47a8-a7dd-5896f8dd0db2)
-![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/8e8f461c-fcfa-4902-afb4-9bbf7104a61f)
+![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/deb6a29c-4e29-45cf-8b03-f786cce1c3fa)
+![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/a206652f-a91c-43a2-86b3-30fab378dab4)
