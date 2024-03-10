@@ -16,4 +16,4 @@ https://learn.microsoft.com/ja-jp/cpp/build/vscpp-step-0-installation?view=msvc-
 
 ## Image
 ![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/edb93c30-d0f0-44e9-9712-a8520c8ab4f9)
-![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/aacec634-31d0-4084-9b44-d4cb89eeb137)
+![image](https://github.com/TheKawaiiNeko/SPT-AKI-Cheat/assets/159750768/1fc9a021-d2ad-4738-8e08-3e85c8befd74)
