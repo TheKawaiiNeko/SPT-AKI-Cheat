@@ -82,6 +82,7 @@ void Cheat::RenderESP()
     if (PlayerList.itemCount <= 0)
         return;
 
+    // 縺薙ｌ縺ｯ谿句ｿｵ縺ｪ縺後ｉEFT縺ｮ繝ｩ繧､繝悶ヰ繝ｼ繧ｸ繝ｧ繝ｳ縺ｧ縺ｯ蜍穂ｽ懊＠縺ｾ縺帙ｓ
     for (int i = 0; i < PlayerList.itemCount; i++)
     {
         uint64_t player = m.Read<uint64_t>(PlayerListPtr + (offsetof(ListInternal, firstEntry) + (i * 8)));
@@ -142,10 +143,10 @@ void Cheat::RenderESP()
 
         float distance = GetDistance(LocalPosition, pos);
 
-        // 疑似的なBox
+        // 逍台ｼｼ逧�縺ｪBox
         if (g.ESP_Box)
         {
-            Vector2 ScreenPosTop = EFT.WorldToScreen(Vector3(pos.x, pos.y + 1.75f, pos.z)); // プレイヤーの高さ分座標を追加する -> 伏せ/しゃがみ時に懸念点あり
+            Vector2 ScreenPosTop = EFT.WorldToScreen(Vector3(pos.x, pos.y + 1.75f, pos.z)); // 繝励Ξ繧､繝､繝ｼ縺ｮ鬮倥＆蛻�蠎ｧ讓吶ｒ霑ｽ蜉縺吶ｋ -> 莨上○/縺励ｃ縺後∩譎ゅ↓諛ｸ蠢ｵ轤ｹ縺ゅｊ
 
             int height = ScreenPosTop.y - ScreenPosition.y;
             int width = height / 2.f;
